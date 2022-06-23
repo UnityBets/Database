@@ -3,7 +3,7 @@ print("Welcome to the UnityBets premeum member printer")
 yesno=input("Want to showcase the premeum members? [Y/N]: ")
 if yesno == "Y" or yesno == "y":
 	print("Premeum members are {\n")
-	page = urllib.request.urlopen('https://raw.githubusercontent.com/XPRSSN/test/main/1.dat')
+	page = urllib.request.urlopen('https://raw.githubusercontent.com/UnityBets/Database/main/PremiumMembers.dat')
 	print(page.read())
 	print("\n]\n")
 	exit()
